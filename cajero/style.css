@@ -1,0 +1,118 @@
+body{
+    background: radial-gradient(ellipse at center, rgba(37,66,146,1) 50%, rgba(0,12,114,1) 100%);
+    height: 100vh;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+.container{
+    background: rgb(6, 32, 80);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.controles{
+    display:flex;
+    margin: 5px 0;
+}
+.controles input{
+    display: inline-block;
+}
+.controles input[type="number"]{
+    width: 70%;
+}
+.controles input[type="button"]{
+    font-weight: 600;
+    width: 30%;
+    height: 35px;
+    border: none;
+    margin-left: 5px;
+    background: #254292;
+    color: #fff;
+}
+.controles input[type="button"]:hover{
+    background: #2f52b3;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+ }
+.disponible{
+    background:#666;
+    padding: 5px;
+}
+.disponible p {
+    border: solid 5px #ccc;
+    background: linear-gradient(45deg, rgba(0,12,114,1) 10%, rgba(0,12,114,1) 24%, rgba(37,66,146,1) 72%, rgba(37,66,146,1) 100%);
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 36px;
+    margin: 0;
+    border-radius: 3px;
+}
+
+
+h2{
+    margin: 30px 0 10px 0;
+    color: #00339b;
+    border:1px solid #00339b;
+    padding:3px;
+    background-color: rgb(7, 7, 63);
+}
+h2:first-child{
+    margin-top:5px;
+}
+.historial{
+    background: linear-gradient(45deg, rgba(0,12,114,1) 10%, rgba(0,12,114,1) 24%, rgba(37,66,146,1) 72%, rgba(37,66,146,1) 100%);
+    border: solid 5px #ccc;  
+    color: white;
+    max-height: 80px;
+    overflow:auto;
+}
+.historial ul{
+    margin-block: 0;
+    list-style: square;
+    font-size: 25px;
+}
+
+.historial h2{
+    margin: 0;
+}
+.restado{
+    height:30px;
+    background:blue;
+    margin: 0;
+}
+.restado p{
+    margin: 0;
+}
+
+.salida {
+    max-width: 385px;
+}
+.billetes{
+     display: flex;
+     margin-bottom: 5px;
+     color: #fff;
+     font-size: 20px;
+     line-height: 0;
+}
+.billetes p{
+    display: inline-block;
+}
