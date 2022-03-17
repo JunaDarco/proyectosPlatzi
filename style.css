@@ -1,7 +1,32 @@
-body{
+main{
     display:flex;
     justify-content: center;
 }
+/* header{
+    background-color:rgb(157, 202, 241);
+    height:30px;
+    display: block;
+    margin-bottom: 10px;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding:0;
+}
+li{
+    text-align:center;
+    font-weight: 800;
+    line-height: 30px;
+    color:purple;
+    padding:5px;
+    /* background:blue; 
+}
+li:hover{
+    background:#76a8c8;
+} */
 h1{
     color: rgb(97, 219, 219);
     width: 100%;
