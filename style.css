@@ -2,7 +2,7 @@ main{
     display:flex;
     justify-content: center;
 }
-/* header{
+ header{
     background-color:rgb(157, 202, 241);
     height:30px;
     display: block;
@@ -19,14 +19,14 @@ ul{
 li{
     text-align:center;
     font-weight: 800;
-    line-height: 30px;
+    line-height: 25px;
     color:purple;
     padding:5px;
-    /* background:blue; 
+
 }
 li:hover{
     background:#76a8c8;
-} */
+} /**/
 h1{
     color: rgb(97, 219, 219);
     width: 100%;
