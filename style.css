@@ -3,7 +3,7 @@ main{
     justify-content: center;
 }
  header{
-    background-color:rgb(157, 202, 241);
+    background-color:purple;
     height:30px;
     display: block;
     margin-bottom: 10px;
@@ -20,12 +20,13 @@ li{
     text-align:center;
     font-weight: 800;
     line-height: 25px;
-    color:purple;
+    color:#76a8c8;
     padding:5px;
+    width: 33%;
 
 }
 li:hover{
-    background:#76a8c8;
+    background:rgb(155, 0, 155);
 } /**/
 h1{
     color: rgb(97, 219, 219);
