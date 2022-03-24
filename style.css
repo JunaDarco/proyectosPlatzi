@@ -1,5 +1,6 @@
 body {
     font-family:'Courier New', Courier, monospace;
+    background-color: #ece9e9;
     margin: 0;
 }
 .contenedorTitulo{
@@ -46,6 +47,7 @@ body {
 
 
 main{
+    background:#fff;
     max-width: 1200px;
     margin: 10px auto;
     border: 2px solid #ccc;
