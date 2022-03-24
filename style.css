@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 .contenedorTitulo{
-    background: rgb(51, 51, 145);
+    background: #333391;
     padding: 5px;
 }
 .titulo {
@@ -41,13 +41,35 @@ body {
     transition: all 0.3s ease;
 }
 .navbar ul li:hover{
-    background-color: rgb(32, 36, 92);
+    background-color: #20245c;
 }
 
 
 main{
     max-width: 1200px;
     margin: 10px auto;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    border-radius: 10px;
     text-align: center;
+    padding: 5px;
+}
+
+
+footer{
+    background: #333391;  
+    height:100px;  
+}
+footer div {
+    display:flex;
+    align-items: center; 
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    width: 100%;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    height:100px;
 }
